@@ -1,0 +1,72 @@
+.c {
+  height: 100vh;
+  position: relative;
+}
+
+.c-left {
+  flex: 1;
+}
+
+.c-bg {
+  height: 100%;
+  width: 20px;
+  background-color: rgb(39, 81, 3);
+  position: absolute;
+}
+
+.c-wrapper {
+  padding: 50px;
+  display: flex;
+}
+
+.c-info-title {
+  margin-left: 50px;
+  width: 50%;
+  margin-bottom: 70px;
+}
+
+.c-info-item {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.c-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.c-right {
+  flex: 1;
+  align-items: center;
+}
+
+.c-form {
+  padding: 40px;
+  width: 70%;
+  align-items: center;
+}
+
+.c-right-info {
+  margin-top: 30px;
+  width: 90%;
+}
+
+.c-form-item {
+  padding: 10px;
+  margin: 15px 0px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.c-form-btn {
+  margin: 10px 0px;
+  background-color: aquamarine;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
