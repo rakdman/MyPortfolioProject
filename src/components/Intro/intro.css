@@ -36,7 +36,7 @@
 .i-title-wrapper {
   /* height: 10px; */
   /* animation: move 10s ease-in-out infinite alternate; */
-  animation: move 10s ease-in-out infinite alternate-reverse;
+  animation: move 8s ease-in-out infinite alternate-reverse;
 }
 
 @keyframes move {

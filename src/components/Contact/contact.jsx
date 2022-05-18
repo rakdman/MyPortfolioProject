@@ -5,6 +5,10 @@ import address from "../../images/address.svg";
 import email from "../../images/email.svg";
 
 export default function contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className="c">
       <div className="c-bg"></div>
@@ -53,7 +57,11 @@ export default function contact() {
                 placeholder="Write your message here"
               ></textarea>
               <div className="c-form-btn-wrapper">
-                <button className="c-form-btn" type="submit">
+                <button
+                  className="c-form-btn"
+                  type="submit"
+                  onClick={handleSubmit}
+                >
                   Submit
                 </button>
               </div>

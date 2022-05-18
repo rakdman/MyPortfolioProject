@@ -17,10 +17,10 @@ export default function intro() {
             <div className="i-title-item">Git</div>
             <div className="i-title-item">Docker</div>
           </div>
-          <p className="i-desc">
+          {/* <p className="i-desc">
             Coding enthusiast willing to learn new technologies, with
             professional knowledge of Java, Spring Boot, Database and Linux.
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="i-right">
