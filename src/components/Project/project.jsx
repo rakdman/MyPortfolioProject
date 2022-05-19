@@ -1,10 +1,10 @@
 import React from "react";
-import "./about.css";
+import "./project.css";
 
 export default function About() {
   return (
     <div className="a">
-       <div className="a-bg"></div>
+
       <div className="a-left">
 
 
@@ -78,6 +78,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <div className="a-bg"></div>
     </div>
   );
 }
