@@ -19,7 +19,7 @@ export default function contact() {
       .then(
         (result) => {
           alert(
-            "Thank you for sending message, We will get back to you shortly",
+            "Thank you for sending message, I will get back to you shortly",
             result.text
           );
         },
