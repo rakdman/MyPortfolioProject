@@ -3,10 +3,30 @@ import "./contact.css";
 import mobile from "../../images/mobile.svg";
 import address from "../../images/address.svg";
 import email from "../../images/email.svg";
+import emailjs from "@emailjs/browser";
 
 export default function contact() {
   const handleSubmit = (e) => {
+    console.log(e.target);
     e.preventDefault();
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        e.target,
+        process.env.REACT_APP_USER_ID
+      )
+      .then(
+        (result) => {
+          alert(
+            "Thank you for sending message, We will get back to you shortly",
+            result.text
+          );
+        },
+        (error) => {
+          alert("An error occurred, Please try again", error.text);
+        }
+      );
   };
 
   return (
@@ -35,11 +55,11 @@ export default function contact() {
             developer role.
           </div>
           <div className="c-form-wrapper">
-            <form className="c-form">
+            <form onSubmit={handleSubmit} className="c-form">
               <input
                 className="c-form-item"
                 type="text"
-                name="username"
+                name="name"
                 placeholder="Full Name"
               />
               <input
@@ -57,11 +77,7 @@ export default function contact() {
                 placeholder="Write your message here"
               ></textarea>
               <div className="c-form-btn-wrapper">
-                <button
-                  className="c-form-btn"
-                  type="submit"
-                  onClick={handleSubmit}
-                >
+                <button className="c-form-btn" type="submit">
                   Submit
                 </button>
               </div>
