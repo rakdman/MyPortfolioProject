@@ -37,7 +37,7 @@ export default function contact() {
           <h1 className="c-info-title">Let's disucss about the project</h1>
           <div className="c-info-item">
             <img src={mobile} alt="" className="c-icon" />
-            +49 17668405166
+            +49 1766840XXXX
           </div>
           <div className="c-info-item">
             <img src={email} alt="" className="c-icon" />
@@ -45,7 +45,7 @@ export default function contact() {
           </div>
           <div className="c-info-item">
             <img src={address} alt="" className="c-icon" />
-            Leipziger Straße, Fulda, Germany
+            Fulda, Germany
           </div>
         </div>
         <div className="c-right">
