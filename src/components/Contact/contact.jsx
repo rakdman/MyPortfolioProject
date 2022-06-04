@@ -37,7 +37,7 @@ export default function contact() {
           <h1 className="c-info-title">Let's disucss about the project</h1>
           <div className="c-info-item">
             <img src={mobile} alt="" className="c-icon" />
-            +49 1766840XXXX
+            +49 17668405166
           </div>
           <div className="c-info-item">
             <img src={email} alt="" className="c-icon" />

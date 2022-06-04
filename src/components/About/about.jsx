@@ -4,40 +4,37 @@ import "./about.css";
 export default function About() {
   return (
     <div className="a">
-       <div className="a-bg"></div>
+      <div className="a-bg"></div>
       <div className="a-left">
-
-
-
         <div className="a-left-card-bg">
-        <div className="a-left-card">
-        <h1 className="a-title">About Me</h1>
+          <div className="a-left-card">
+            <h1 className="a-title">About Me</h1>
 
-        <div className="a-detail">
- 
-          <p className="a-desc">
-            Coding enthusiast willing to learn new technologies, with professional knowledge of Java, Spring Boot, Database and Linux
-          </p>
-          <p className="a-desc">
-            I have professional experience in Java and worked on the development
-            of Java-based component for JBPM based customer management system.
-            Also, I have done requirement gathering, high-level solutioning,
-            business workflow configuration, PL/SQL report generation with Unix
-            scripts and manual testing.
-          </p>
-          <p className="a-desc">
-            I am currently studying in the 4th semester of “MSc Global Software
-            Development” at Hochschule Fulda, Germany. All my courses are complete
-            with 1.7 average German grading and now left with internship and
-            thesis. I have done two projects using Java Spring boot where
-            developed REST APIs using tools such as IntelliJ Idea and Eclipse.
-            Also, I know about Spring MVC, Spring Batch, Spring Security,
-            Hibernate, AWS, Docker, relational databases such as Oracle and MYSQL.
-          </p>
-          </div>
+            <div className="a-detail">
+              <p className="a-desc">
+                Coding enthusiast willing to learn new technologies, with
+                professional knowledge of Java, Spring Boot, Database and Linux
+              </p>
+              <p className="a-desc">
+                I have professional experience in Java and worked on the
+                development of Java-based component for JBPM based customer
+                management system. Also, I have done requirement gathering,
+                high-level solutioning, business workflow configuration, PL/SQL
+                report generation with Unix scripts and manual testing.
+              </p>
+              <p className="a-desc">
+                I am currently studying in the 4th semester of “MSc Global
+                Software Development” at Hochschule Fulda, Germany. All my
+                courses are complete with 1.7 average German grading and now
+                left with internship and thesis. I have done two projects using
+                Java Spring boot where developed REST APIs using tools such as
+                IntelliJ Idea and Eclipse. Also, I know about Spring MVC, Spring
+                Batch, Spring Security, Hibernate, AWS, Docker, relational
+                databases such as Oracle and MYSQL.
+              </p>
+            </div>
           </div>
         </div>
-
       </div>
       <div className="a-right">
         <div className="a-right-card-bg">
@@ -46,7 +43,7 @@ export default function About() {
               <h1 className="a-title">Professional Experience</h1>
               <p>
                 Ericsson India Global Services
-                <p> Noida, India From: Aug 2017 - Mar 2021 </p>
+                <p> Noida, India From: Feb 2020 - Mar 2021 </p>
               </p>
               <p>Key responsibilities:</p>
               <ul>
