@@ -12,15 +12,14 @@ export default function About() {
 
             <div className="a-detail">
               <p className="a-desc">
-                Coding enthusiast willing to learn new technologies, with
-                professional knowledge of Java, Spring Boot, Database and Linux
+                I have professional experience in Java and worked on the
+                development of Java-based component for JBPM based Debit
+                Management system used in telecom domain.
               </p>
               <p className="a-desc">
-                I have professional experience in Java and worked on the
-                development of Java-based component for JBPM based customer
-                management system. Also, I have done requirement gathering,
-                high-level solutioning, business workflow configuration, PL/SQL
-                report generation with Unix scripts and manual testing.
+                Also, I have done requirement gathering, high-level solutioning,
+                business workflow configuration, PL/SQL report generation with
+                Linux/Unix scripts and manual testing.
               </p>
               <p className="a-desc">
                 I am currently studying in the 4th semester of “MSc Global
