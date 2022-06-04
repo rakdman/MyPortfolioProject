@@ -2,9 +2,9 @@
 
 You can access my profile on following link: https://mrrakeshkumar.herokuapp.com/
 
-I have developed this using ReactJS, CSS and emailjs.
+I have the developed portfolio website using ReactJS, CSS and emailjs.
 
-It is deployed on Heroku free account.
+It is deployed on Heroku free account. so you find a little delay for first time access.
 
 ![image](https://user-images.githubusercontent.com/59464659/172000764-3b3c6dc1-6e78-418f-a068-4a862afd1165.png)
 
